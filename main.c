@@ -3,7 +3,7 @@ extern void display_main_menu(void);
 
 int main(void)
 {   
-    start_banner();
+    //start_banner();
     display_main_menu();
     return 0;
 }

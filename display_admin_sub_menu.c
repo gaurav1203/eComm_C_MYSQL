@@ -33,7 +33,7 @@ void display_admin_sub_menu(void)
         {
             case 1:
             {
-                database_connect(2);
+                database_connect(1);
                 break;
             }
             case 2:
