@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 extern void display_admin_delete_sub_menu(void);
-extern void database_connect(int);
+extern void display_admin_insert_sub_menu(void);
 
 void display_admin_sub_menu(void)
 {
@@ -33,7 +33,7 @@ void display_admin_sub_menu(void)
         {
             case 1:
             {
-                database_connect(1);
+                display_admin_insert_sub_menu();
                 break;
             }
             case 2:

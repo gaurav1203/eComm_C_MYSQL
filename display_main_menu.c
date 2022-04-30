@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 extern void display_admin_sub_menu(void);
+extern void database_connect(int);
 
 void display_main_menu(void)
 {
@@ -44,6 +45,7 @@ void display_main_menu(void)
             }
             case 4:
             {
+                //database_connect(1);
                 exit(0);
             }
         }
