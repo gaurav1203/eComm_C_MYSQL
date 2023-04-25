@@ -19,10 +19,10 @@ void database_connect(int option)
 {
 	MYSQL *connection;
 	
-	char *server = "helios.vse.gmu.edu";
-	char *user = "gsingh33";
-	char *password = "glupteef";
-	char *database = "gsingh33";
+	char *server = "";
+	char *user = "";
+	char *password = "";
+	char *database = "";
 	
 	connection = mysql_init(NULL);
 	
